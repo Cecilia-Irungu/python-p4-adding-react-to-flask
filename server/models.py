@@ -3,6 +3,7 @@ from sqlalchemy_serializer import SerializerMixin
 
 db = SQLAlchemy()
 
+
 class Message(db.Model, SerializerMixin):
     __tablename__ = 'messages'
 
